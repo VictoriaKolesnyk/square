@@ -8,4 +8,4 @@ def square(a):
 
 
 a = int(input('введите число  '))
-square(a)
+print(square(a))
