@@ -2,9 +2,9 @@ def square(a):
     p = 4 * a
     s = a ** 2
     diag = a * 4 ** (1 / 2)
-    k = (p, s, diag)
+    return p, s, diag
 
-    print(k)
+    print(p, s, diag)
 
 
 a = int(input('введите число  '))
